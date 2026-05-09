@@ -1,0 +1,87 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   SHERLOCK — Kriminal İstihbarat Platformu
+   Design Token Sistemi — Dark Taktiksel Tema
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Temel Arka Plan Katmanları ──────────────────────────────────────────── */
+  --bg-base:        #f1f5f9;   /* En derin arka plan */
+  --bg-surface:     #ffffff;   /* Panel yüzeyleri */
+  --bg-elevated:    #ffffff;   /* Kartlar, modallar */
+  --bg-overlay:     #e2e8f0;   /* Hover durumları */
+  --bg-glass:       rgba(255, 255, 255, 0.90);
+
+  /* ── Vurgu Renkleri (Operational Blue) ──────────────────────────────────── */
+  --accent-primary:   #1a7ed4;
+  --accent-glow:      #2596f0;
+  --accent-dim:       #eff6ff;
+  --accent-muted:     rgba(26, 126, 212, 0.1);
+
+  /* ── Durum Renkleri ──────────────────────────────────────────────────────── */
+  --status-confirmed:   #16a34a;   /* Doğrulandı — yeşil */
+  --status-probable:    #d97706;   /* Muhtemel — amber */
+  --status-speculative: #dc2626;   /* Spekülatif — kırmızı */
+  --status-info:        #0284c7;
+
+  /* ── Node Tip Renkleri ───────────────────────────────────────────────────── */
+  --node-person:        #dc2626;   /* Şahıs — kırmızı */
+  --node-vehicle:       #d97706;   /* Araç — amber */
+  --node-communication: #7c3aed;   /* İletişim — mor */
+  --node-location:      #16a34a;   /* Lokasyon — yeşil */
+  --node-evidence:      #0284c7;   /* Kanıt — mavi */
+  --node-note:          #fef08a;   /* Not Kağıdı — sarı */
+
+  /* ── Rol Renkleri (Şahıs) ────────────────────────────────────────────────── */
+  --role-suspect:  #dc2626;
+  --role-witness:  #2563eb;
+  --role-victim:   #d97706;
+  --role-unknown:  #4b5563;
+
+  /* ── Metin Hiyerarşisi ───────────────────────────────────────────────────── */
+  --text-primary:   #0f172a;
+  --text-secondary: #475569;
+  --text-muted:     #64748b;
+  --text-inverse:   #ffffff;
+
+  /* ── Kenar / Border ──────────────────────────────────────────────────────── */
+  --border-dim:     #e2e8f0;
+  --border-base:    #cbd5e1;
+  --border-accent:  rgba(26, 126, 212, 0.4);
+
+  /* ── Gölgeler ────────────────────────────────────────────────────────────── */
+  --shadow-sm:  0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md:  0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+  --shadow-lg:  0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+  --shadow-glow: 0 0 15px rgba(26, 126, 212, 0.15);
+
+  /* ── Tipografi ───────────────────────────────────────────────────────────── */
+  --font-ui:   'Inter', 'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Consolas', monospace;
+
+  /* ── Geçiş Animasyonları ─────────────────────────────────────────────────── */
+  --transition-fast:   150ms ease;
+  --transition-base:   250ms ease;
+  --transition-slow:   400ms ease;
+
+  /* ── Yarıçaplar ──────────────────────────────────────────────────────────── */
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  12px;
+  --radius-xl:  16px;
+
+  /* ── Spacing ─────────────────────────────────────────────────────────────── */
+  --space-xs:  4px;
+  --space-sm:  8px;
+  --space-md:  12px;
+  --space-lg:  16px;
+  --space-xl:  24px;
+  --space-2xl: 32px;
+
+  /* ── Z-Index Katmanları ──────────────────────────────────────────────────── */
+  --z-canvas:       1;
+  --z-ui:          10;
+  --z-sidebar:     20;
+  --z-modal:       50;
+  --z-context:     60;
+  --z-tooltip:     70;
+}
